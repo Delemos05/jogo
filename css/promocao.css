@@ -1,0 +1,68 @@
+/** Configuração da DIV do Banner com id promocao
+**************************************************************************************/
+
+#promocao {
+
+    /** Altura e margem **/
+    height: 350px;
+    margin-top: 0px;
+
+    /** Imagem do Banner  **/
+    background-image: url('../imagens/spider.jpg');
+}
+
+/** Configuração do header principal da promoção com id "promocaoH1" 
+**************************************************************************************/
+
+#promocaoH1 {
+
+    /** Cor da fonte **/
+    color: rgb(255, 252, 252);
+
+    /** Tamanho de fonte **/
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    /** Remove a margem **/
+    margin: 0;
+    
+    /** Posicionando o elemento **/
+    left: 30px;
+    top: 20px;
+    position: relative;
+
+
+    /** Aplica sombra ao texto **/
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+/** Configura o header com o preço no banner com id "promocaoValor" 
+**************************************************************************************/
+
+#promocaoValor {
+
+    /** Cor da fonte  **/
+    color: white;
+
+    /** Tamanho da fonte **/
+    font-size: 38px;
+    font-family: 'Times New Roman', Times, serif;
+
+    /** Remove a margem  **/
+    margin: 0;
+
+    /** Aplica sombra ao texto **/
+    text-shadow: 2px 2px 4px #080001;
+
+    /** Posiciona os elementos **/
+    left: 30px;
+    top: 180px;
+    position: relative;
+
+    /** Largura **/
+    width: 500px;
+}
+
+
+
